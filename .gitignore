@@ -1,0 +1,4 @@
+### Zig template
+.zig-cache/
+zig-out/
+

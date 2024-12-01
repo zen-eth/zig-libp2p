@@ -1,0 +1,15 @@
+.{
+    .name = "zig-libp2p",
+    .version = "0.1.0",
+    .dependencies = .{
+        .libuv = .{
+            .url = "https://github.com/zen-eth/zig-libuv/archive/refs/heads/main.tar.gz",
+            .hash = "12200ea7783a437a2fb78ee5c4cca7e50af0230d52407b457c6c1727ecb1d9786028",
+        },
+    },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
